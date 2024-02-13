@@ -91,4 +91,15 @@
       "url": "https://feross.org/support"
     }
   ]
+{
+  "name": "my-cool-package",
+  "devDependencies": {
+    "semistandard": "*"
+  },
+  "scripts": {
+    "test": "semistandard && node my-normal-tests-littered-with-semicolons.js"
+  }
+  }
 }
+ 
+
